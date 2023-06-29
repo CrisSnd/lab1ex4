@@ -6,9 +6,11 @@ namespace MyApp
     {
         static void Main(string[] args)
         {
+            /*Program care va afisa semnul unui numar citit de la tastatura*/
+
             double i;
 
-            Console.WriteLine("Introduceti numarul:" + "\n");
+            Console.WriteLine("Introduceti numarul:"+"\n");
             i = double.Parse(Console.ReadLine());
 
             if (i > 0)
